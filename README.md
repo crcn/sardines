@@ -15,6 +15,7 @@ Requirements
 - Linux / Mac
 - NPM
 - [beet](https://github.com/spiceapps/beet) - upstart script which daemonizes yor stuff
+- growlnotify for growl notifications
 
 Keep in Mind
 ------------
@@ -31,7 +32,7 @@ Sweet Stuff
 
 - Supports NPM packages.
 - Extendable ([brazln](https://github.com/spiceapps/brazln))
-- Supports growl notifications
+- Supports growl notifications via growlnotify
 - Variables are removed from the global namespace.
 - Parses require(...), so your code stays compatible on the backend, as well as the front end.
 - Don't care for combining JS files, but want to know the dependencies? Use the API.

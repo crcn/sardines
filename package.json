@@ -1,10 +1,10 @@
 {
-    "name":"Sardines",
+    "name":"sardines",
     "descriptions": "Stress-free javascript source combining.",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "author": "Craig Condon <craig@spiceapps.com>",
     "bin": {
-        "beet": "./bin/sardines"
+        "sardines": "./bin/sardines"
     },
     "repository": {
         "type": "git",
