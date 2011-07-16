@@ -32,6 +32,7 @@ Sweet Stuff
 - Supports NPM packages.
 - Extendable ([brazln](https://github.com/spiceapps/brazln))
 - Supports growl notifications
+- Variables are removed from the global namespace.
 - Parses require(...), so your code stays compatible on the backend, as well as the front end.
 - Don't care for combining JS files, but want to know the dependencies? Use the API.
 - Fork the watching process, and forget about it. Need to reboot your machine? It's still watching your shit.
@@ -76,5 +77,4 @@ To-Do:
 - help file for CLI
 - reading package.json for project
 - compressing javascript files
-- combined JS files litter the global namespace.
 - clean up the code + document it. 
