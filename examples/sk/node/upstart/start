@@ -1,0 +1,190 @@
+#!/bin/bash
+BIN=`which $1`
+COMMAND=$2
+NAME=$4
+ROOT_PATH=$3
+CHECK_PORT=$5
+PLIST_NS="node.js.$NAME"
+START_BIN_PATH=$ROOT_PATH/start
+STOP_BIN_PATH=$ROOT_PATH/stop
+LOG_PATH=$ROOT_PATH/logs
+PLIST_PATH=/Library/LaunchDaemons/$PLIST_NS.plist
+mkdir -p $LOG_PATH /etc/init /etc/monit/ /etc/init.d/
+
+LAUNCHCTL_CONTENT=$(cat <<EOF
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple Computer//DTD PLIST 1.0//EN"
+        "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+        <key>Label</key>
+        <string>$PLIST_NS</string>
+        <key>ProgramArguments</key>
+        <array>
+                <string>$START_BIN_PATH</string>
+        </array>
+		<key>RunAtLoad</key><true/>
+		<key>KeepAlive</key><true/>
+		<key>OnDemand</key><true/>
+		
+</dict>
+</plist>
+EOF
+)
+
+
+UPSTART_CONTENT=$(cat <<EOF
+#!upstart
+description "Spice.io server"
+author      "Craig Condon"
+
+start on startup
+stop on shutdown
+
+script
+    export HOME="/root"
+
+    exec sudo -u root $START_BIN_PATH  2>&1 >> $LOG_PATH/upstart.log
+end script
+EOF
+)
+
+INIT_D_CONTENT=$(cat <<EOF
+#!/bin/bash
+### BEGIN INIT INFO
+# Provides:          spiceio
+# Required-Start:    \$network \$local_fs
+# Required-Stop:
+# Should-Start:      \$named
+# Should-Stop:
+# Default-Start:     2 3 4 5
+# Default-Stop:      0 1 6
+# Short-Description: heroku for social applications
+# Description:       Spice.io
+#
+
+#                    High performance, scalability, and reasonable depth of
+#                    functionality are the goals for the project.
+### END INIT INFO
+
+start_server() 
+{
+	start $NAME
+	monit -d 60 -c /etc/monit/$NAME.monit
+	
+	#update boot script
+	#update-rc.d $NAME defaults
+}
+
+stop_server()
+{
+	$STOP_BIN_PATH
+}
+
+case "\$1" in
+	start)
+	start_server;
+	;;
+	stop)
+	stop_server;
+	;;
+	*)
+esac
+
+EOF
+)
+
+MONIT_CONTENT=$(cat <<EOF
+#!monit
+set logfile $LOG_PATH/monit.log
+
+check host nodejs with address 127.0.0.1
+    start program = "/sbin/start $NAME"
+    stop program  = "/sbin/stop $NAME"
+    if failed port $CHECK_PORT protocol HTTP
+        request /
+        with timeout 10 seconds
+        then restart
+EOF
+)
+
+EXEC="\`"
+
+UNINSTALL_CONTENT=$(cat <<EOF
+
+	if [ -a /Library/LaunchDaemons ]
+	then
+		sudo launchctl unload -w $PLIST_PATH
+	else
+
+		case "\$1" in
+			purge)
+			update-rc.d -f $NAME remove;
+			;;
+			*)
+		esac
+		
+		MONIT_PID="$EXEC ps ax | grep ./$NAME.monit | awk '{print \$1}'$EXEC"
+		echo \$MONIT_PID
+		kill \$MONIT_PID
+		stop $NAME
+	fi
+	
+	
+
+	
+EOF
+)
+
+install_pkg()
+{
+
+	if [ `which port` ];
+	then
+		port install $1;
+	elif [ `which aptitude` ];
+	then
+		aptitude -y install $1;
+	elif [ `which apt-get` ];
+	then 
+		apt-get -y install $1;
+	fi;
+}
+
+install_monit()
+{
+	install_pkg monit
+}
+
+echo "$BIN $COMMAND" > $START_BIN_PATH
+echo "$UNINSTALL_CONTENT" > $STOP_BIN_PATH
+chmod 755 $START_BIN_PATH $STOP_BIN_PATH 
+
+if [ -a /Library/LaunchDaemons ]
+then
+	# save the plist file 
+	echo $LAUNCHCTL_CONTENT > $PLIST_PATH
+	chown root $PLIST_PATH
+	launchctl unload -w $PLIST_PATH
+	launchctl load -w $PLIST_PATH
+	launchctl start $PLIST_NS
+elif [ `which start` ]
+then
+	if ! [ `which monit` ]
+	then
+		install_monit
+	fi
+
+	echo "$UPSTART_CONTENT" > /etc/event.d/$NAME.conf
+	echo "$UPSTART_CONTENT" > /etc/init/$NAME.conf
+	echo "$MONIT_CONTENT" > /etc/monit/$NAME.monit
+	echo "$INIT_D_CONTENT" > /etc/init.d/$NAME
+	chmod 700 /etc/monit/$NAME.monit
+	chmod 755 /etc/event.d/$NAME.conf /etc/init/$NAME.conf /etc/init.d/$NAME
+	 
+	cd /etc/init.d/
+	./$NAME start
+	
+	#update boot script
+	update-rc.d $NAME defaults
+fi

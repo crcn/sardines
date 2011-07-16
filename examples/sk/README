@@ -1,0 +1,8 @@
+Spice Kit is a set of classes / utilities used by most Spice App projects. The folder structure is ordered as such:
+
+/sk/[PLATFORM]/...
+/sk/core/... <- code which can be used by any platform
+/sk/web/... <- web specific code
+/sk/node/... <- node.js specific code
+/sk/titanium/... <- titanium specific code
+
