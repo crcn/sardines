@@ -1,6 +1,6 @@
 {
     "name":"Sardines",
-    "descriptions": "Combine js files into one using NPM.",
+    "descriptions": "Stress-free javascript source combining.",
     "version": "0.0.1",
     "author": "Craig Condon <craig@spiceapps.com>",
     "bin": {
@@ -14,12 +14,8 @@
     "dependencies": {
         "sk":"*",
         "brazln":"*",
-        "express":"*",
 		"beet":"*",
-        "vine":"*",
-        "node-tiny":"*",
-        "websocket-client":"1.0.0",
-        "websocket-server":"1.4.04"
+        "vine":"*"
         
     }
 }
