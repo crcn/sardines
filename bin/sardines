@@ -13,22 +13,28 @@ while(args.length)
 	switch(arg)
 	{
 		case '-i':
+		case '-input':
 			ops.input = args.shift();
 		break;
 		case '-o':
+		case '-output':
 			ops.output = args.shift();
 		break;
 		case '-c':
+		case '-config':
 			ops.config = args.shift();
 		break;
 		case '-w':
+		case '-watch':
 			ops.watch = true;
 			console.success('Watching project for any changes'.underline);
 		break;
 		case '-z':
+		case '-zip':
 			ops.compress = args.shift();
 		break;
 		case '-d':
+		case '-daemonize':
 		case '-daemonize-that-shit':
 			ops.daemonize = true;
 			var i = ops.args.indexOf(arg);
