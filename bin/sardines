@@ -1,0 +1,47 @@
+#!/usr/bin/env node
+
+var args = process.argv.concat(),
+	sardines = require('../lib');
+	ops = { args: args.concat() };
+	
+
+require('sk/node/log');
+
+while(args.length)
+{
+	var arg = args.shift();
+	switch(arg)
+	{
+		case '-i':
+			ops.input = args.shift();
+		break;
+		case '-o':
+			ops.output = args.shift();
+		break;
+		case '-c':
+			ops.config = args.shift();
+		break;
+		case '-w':
+			ops.watch = true;
+			console.success('Watching project for any changes'.underline);
+		break;
+		case '-z':
+			ops.compress = args.shift();
+		break;
+		case '-d':
+		case '-daemonize-that-shit':
+			ops.daemonize = true;
+			var i = ops.args.indexOf(arg);
+			ops.args.splice(i, 1);
+		break;
+		case '-n':
+		case '-name':
+			ops.name = args.shift();
+		break;
+	}
+}
+
+sardines.package(ops, function()
+{
+	require('sdutils').boom();
+})

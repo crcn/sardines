@@ -1,0 +1,25 @@
+{
+    "name":"Sardines",
+    "descriptions": "Combine js files into one using NPM.",
+    "version": "0.0.1",
+    "author": "Craig Condon <craig@spiceapps.com>",
+    "bin": {
+        "beet": "./bin/sardines"
+    },
+    "repository": {
+        "type": "git",
+        "url": "http://github.com/spiceapps/sardines.git"
+    },
+    "main": "./lib/index.js",
+    "dependencies": {
+        "sk":"*",
+        "brazln":"*",
+        "express":"*",
+		"beet":"*",
+        "vine":"*",
+        "node-tiny":"*",
+        "websocket-client":"1.0.0",
+        "websocket-server":"1.4.04"
+        
+    }
+}
