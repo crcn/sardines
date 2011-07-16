@@ -21,10 +21,10 @@ Don't complain
 
 This was a Sunday project, so expect leaky, buggy results. I'll fix stuff as they come up.
 
-The name >.>
-------------
+The name sucks...
+-----------------
 
-Sardines sounded pretty good because it makes you think of a bunch of fish (javascript) packed in a tiny can (single file). 
+Sardines sounded pretty good because it makes you think of a bunch of fish (javascript) packed in a tiny can (single file). Cmon', I gotta stick with the food metaphor..
 
 Sweet Stuff
 -----------
