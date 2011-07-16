@@ -31,7 +31,6 @@ Sweet Stuff
 -----------
 
 - Supports NPM packages.
-- Extendable ([brazln](https://github.com/spiceapps/brazln))
 - Supports growl notifications via growlnotify
 - Variables are removed from the global namespace.
 - Parses require(...), so your code stays compatible on the backend, as well as the front end.
