@@ -16,8 +16,8 @@ Requirements
 - NPM
 - [beet](https://github.com/spiceapps/beet) - upstart script which daemonizes yor stuff
 
-Don't complain
---------------
+Keep in Mind
+------------
 
 This was a Sunday project, so expect leaky, buggy results. I'll fix stuff as they come up.
 
@@ -31,6 +31,7 @@ Sweet Stuff
 
 - Supports NPM packages.
 - Extendable ([brazln](https://github.com/spiceapps/brazln))
+- Supports growl notifications
 - Parses require(...), so your code stays compatible on the backend, as well as the front end.
 - Don't care for combining JS files, but want to know the dependencies? Use the API.
 - Fork the watching process, and forget about it. Need to reboot your machine? It's still watching your shit.
