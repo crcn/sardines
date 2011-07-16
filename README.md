@@ -21,8 +21,8 @@ Don't complain
 
 This was a Sunday project, so expect leaky, buggy results. I'll fix stuff as they come up.
 
-But the name's not attractive
------------------------------
+The name >.>
+------------
 
 Sardines sounded pretty good because it makes you think of a bunch of fish (javascript) packed in a tiny can (single file). 
 
