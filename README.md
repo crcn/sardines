@@ -36,7 +36,7 @@ Sweet Stuff
 - Variables are removed from the global namespace.
 - Parses require(...), so your code stays compatible on the backend, as well as the front end.
 - Don't care for combining JS files, but want to know the dependencies? Use the API.
-- Fork the watching process, and forget about it. Need to reboot your machine? It's still watching your shit.
+- Daemonize the watching process, and forget about it. Need to reboot your machine? Sardines is still watching your shit.
 - Doesn't rebuild any html. Instead it looks for JS files with require(...), and includes the dependencies into *that* JS file.
 
 
