@@ -73,6 +73,7 @@ stopping the daemon:
 To-Do:
 ------
 
+- I Love videos, so I'll do one - promise.
 - better documentation
 - help file for CLI
 - reading package.json for project
