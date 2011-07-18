@@ -26,14 +26,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>46</integer>
+				<integer>4</integer>
 				<key>line</key>
-				<integer>34</integer>
+				<integer>10</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>1</integer>
+			<integer>0</integer>
 		</dict>
 		<key>bin/sardines</key>
 		<dict>
@@ -138,14 +138,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>13</integer>
+				<integer>45</integer>
 				<key>line</key>
-				<integer>13</integer>
+				<integer>33</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>23</integer>
+			<integer>0</integer>
 		</dict>
 		<key>package.json</key>
 		<dict>
@@ -178,6 +178,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{0, 4}, {1464, 1024}}</string>
+	<string>{{2168, 31}, {1464, 1024}}</string>
 </dict>
 </plist>

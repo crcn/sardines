@@ -78,6 +78,7 @@ stopping the daemon:
 To-Do:
 ------
 
+- eval AST vs using regex to find loaded modules in doc. 
 - parsing require with urls? e.g: require('http://.../jquery.js');
 - better documentation
 - help file for CLI
