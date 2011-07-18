@@ -3,6 +3,11 @@ What is it?
 
 Stress-free combining of your javascript files. Start it with your target project, daemonize it, and forget about it. Forever....
 
+Video Demos:
+
+- [small test app](http://d.pr/NNLe)
+- [larger app - front-end code (jquery) + backend code (node.js) = BOOOSHHH](http://d.pr/n4Ey)
+
 Why?
 ----
 
@@ -73,7 +78,7 @@ stopping the daemon:
 To-Do:
 ------
 
-- I Love videos, so I'll do one - promise.
+- parsing require with urls? e.g: require('http://.../jquery.js');
 - better documentation
 - help file for CLI
 - reading package.json for project
