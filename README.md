@@ -37,7 +37,6 @@ Sweet Stuff
 
 - Supports NPM packages.
 - Supports growl notifications via growlnotify
-- Variables are removed from the global namespace.
 - Parses require(...), so your code stays compatible on the backend, as well as the front end.
 - Don't care for combining JS files, but want to know the dependencies? Use the API.
 - Daemonize the watching process, and forget about it. Need to reboot your machine? Sardines is still watching your shit.
@@ -79,7 +78,8 @@ stopping the daemon:
 To-Do:
 ------
 
-- eval AST vs using regex to find loaded modules in doc using burrito / uglifyjs.
+- caching required files without if they haven't changed.
+- Remove variables from the global namespace.
 - parsing require with urls? e.g: require('http://.../jquery.js');
 - better documentation
 - help file for CLI
