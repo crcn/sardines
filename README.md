@@ -73,7 +73,8 @@ start watching a project, and daemonize:
 	
 stopping the daemon:
 
-	beet stop sardine-myProjectName
+	beet stop sardine-myProjectName          
+   
 	
 To-Do:
 ------
@@ -85,3 +86,4 @@ To-Do:
 - reading package.json for project
 - compressing javascript files
 - clean up the code + document it. 
+- Commands via source files? e.g: $sd-compress

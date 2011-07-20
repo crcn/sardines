@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>README.md</string>
+	<string>lib/pods/sard.scan.js/lib/scanner.js</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -18,23 +18,9 @@
 		</dict>
 	</array>
 	<key>fileHierarchyDrawerWidth</key>
-	<integer>200</integer>
+	<integer>199</integer>
 	<key>metaData</key>
 	<dict>
-		<key>README.md</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>4</integer>
-				<key>line</key>
-				<integer>10</integer>
-			</dict>
-			<key>firstVisibleColumn</key>
-			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>0</integer>
-		</dict>
 		<key>bin/sardines</key>
 		<dict>
 			<key>caret</key>
@@ -110,14 +96,14 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>10</integer>
+				<integer>58</integer>
 				<key>line</key>
-				<integer>49</integer>
+				<integer>104</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>80</integer>
+			<integer>79</integer>
 		</dict>
 		<key>lib/pods/sard.scan.core/index.js</key>
 		<dict>
@@ -138,23 +124,37 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>45</integer>
+				<integer>0</integer>
 				<key>line</key>
-				<integer>33</integer>
+				<integer>165</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
+			<integer>141</integer>
+		</dict>
+		<key>lib/pods/sard.scan.js/lib/scanner.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>3</integer>
+				<key>line</key>
+				<integer>271</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
 			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>230</integer>
 		</dict>
 		<key>package.json</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>15</integer>
+				<integer>16</integer>
 				<key>line</key>
-				<integer>18</integer>
+				<integer>19</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
@@ -167,8 +167,8 @@
 		<string>lib/index.js</string>
 		<string>lib/pods/sard.scan.core/index.js</string>
 		<string>lib/pods/sard.scan.js/index.js</string>
+		<string>lib/pods/sard.scan.js/lib/scanner.js</string>
 		<string>lib/pods/notify.growl/index.js</string>
-		<string>README.md</string>
 		<string>lib/libs/sdutils.js</string>
 		<string>examples/test/src/index.js</string>
 		<string>lib/pods/sard.package.core/index.js</string>
@@ -178,6 +178,6 @@
 	<key>showFileHierarchyDrawer</key>
 	<true/>
 	<key>windowFrame</key>
-	<string>{{2168, 31}, {1464, 1024}}</string>
+	<string>{{191, 4}, {1464, 1024}}</string>
 </dict>
 </plist>
