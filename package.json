@@ -1,7 +1,7 @@
 {
     "name":"sardines",
     "descriptions": "Stress-free javascript source combining.",
-    "version": "0.0.5",
+    "version": "0.0.7",
     "author": "Craig Condon <craig@spiceapps.com>",
     "bin": {
         "sardines": "./bin/sardines"
@@ -20,6 +20,7 @@
 		"wrench":"*",
 		"underscore":"*",
 		"burrito":"*",
-        "growl":"*"
+        "growl":"*",
+        "aster":"*"
     }
 }
