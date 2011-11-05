@@ -72,27 +72,27 @@ silly testEngine   _defaultsLoaded: true,
 silly testEngine   path: '/Users/craig/Dropbox/Developer/Public/sardines' }
 verbose caching package.json
 verbose loadDefaults sardines@0.0.8
-verbose pack /Users/craig/Dropbox/Developer/Public/sardines /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/tmp.tgz
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986'
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601'
-verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601 755
-verbose mkdir'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601
+verbose pack /Users/craig/Dropbox/Developer/Public/sardines /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/tmp.tgz
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659'
+verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659 755
+verbose mkdir'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659
 verbose tar about to write tar and gzip it.
 silly tar args [ '-czvf', '-', '-T', '-' ]
 silly spawning [ 'tar',
 silly spawning   [ '-czvf', '-', '-T', '-' ],
 silly spawning   '/Users/craig/Dropbox/Developer/Public' ]
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents'
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm'
-verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm 755
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents'
+verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm'
+verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm 755
 verbose unpack_ uid, gid [ undefined, undefined ]
-verbose unpackTarget /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/package
+verbose unpackTarget /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/package
 silly gunzTarPerm modes [ '755', '644' ]
 silly spawning [ 'tar',
 silly spawning   [ '-zmvxpf',
-silly spawning     '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/tmp.tgz',
+silly spawning     '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/tmp.tgz',
 silly spawning     '-o' ],
-silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm' ]
+silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm' ]
 silly tar err x sardines/.cupboard
 silly tar err x sardines/.gitignore
 silly tar err x sardines/MIT-LICENSE.txt
@@ -107,8 +107,8 @@ silly tar err x sardines/lib/builtins/_debugger.js
 silly tar err x sardines/lib/builtins/_linklist.js
 silly tar err x sardines/lib/builtins/assert.js
 silly tar err x sardines/lib/builtins/buffer.js
-silly tar err x sardines/lib/builtins/child_process_legacy.js
 silly tar err x sardines/lib/builtins/buffer_ieee754.js
+silly tar err x sardines/lib/builtins/child_process_legacy.js
 silly tar err x sardines/lib/builtins/child_process_uv.js
 silly tar err x sardines/lib/builtins/console.js
 silly tar err x sardines/lib/builtins/constants.js
@@ -159,96 +159,96 @@ silly tar err x sardines/lib/beans/notify.growl/icons/node_error.png
 silly tar err x sardines/lib/beans/notify.growl/icons/node_info.png
 silly tar err x sardines/lib/beans/sard.scan.js/index.js
 silly tar err x sardines/lib/beans/sard.scan.js/lib/scanner.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/.cupboard
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/.gitignore
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/MIT-LICENSE.txt
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/package.json
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/README.md
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/sardines.tmproj
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/bin
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/bin/sardines
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/libs
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/libs/sdutils.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/wrappers
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/wrappers/process.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/_debugger.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/_linklist.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/assert.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/buffer.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/buffer_ieee754.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/child_process_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/child_process_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/console.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/constants.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/crypto.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/dgram_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/dgram_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/dns_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/dns_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/events.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/freelist.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/fs.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/http.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/http2.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/https.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/https2.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/module.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/net_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/net_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/os.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/path.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/punycode.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/querystring.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/readline.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/repl.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/stream.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/string_decoder.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/sys.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/timers_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/timers_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/tls.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/tty.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/tty_posix.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/tty_win32.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/url.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/util.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/vm.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/crypto
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/crypto/crypto-md5.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/builtins/crypto/crypto-sha1.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.compress.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.compress.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.compress.google
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.compress.google/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.compress.yahoo
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.compress.yahoo/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.scan.html
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.scan.html/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.targ.html
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/crap-pods/sard.targ.html/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/sard.package.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/sard.package.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/sard.scan.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/sard.scan.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/notify.growl
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/notify.growl/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/notify.growl/icons
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/notify.growl/icons/node_error.png
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/notify.growl/icons/node_info.png
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/sard.scan.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/sard.scan.js/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/sard.scan.js/lib
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines/lib/beans/sard.scan.js/lib/scanner.js
-verbose gunzed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines
-verbose rm'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/package
-verbose renamed [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/___package.npm/sardines',
-verbose renamed   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/package' ]
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/.cupboard
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/.gitignore
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/MIT-LICENSE.txt
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/package.json
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/README.md
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/sardines.tmproj
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/bin
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/bin/sardines
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/libs
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/libs/sdutils.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/wrappers
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/wrappers/process.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/_debugger.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/_linklist.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/assert.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/buffer.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/buffer_ieee754.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/child_process_legacy.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/child_process_uv.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/console.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/constants.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/crypto.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/dgram_legacy.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/dgram_uv.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/dns_legacy.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/dns_uv.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/events.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/freelist.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/http.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/fs.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/http2.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/https.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/https2.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/module.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/net_legacy.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/net_uv.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/os.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/path.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/punycode.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/querystring.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/readline.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/repl.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/stream.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/string_decoder.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/sys.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/timers_legacy.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/timers_uv.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/tls.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/tty.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/tty_posix.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/tty_win32.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/url.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/util.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/vm.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/crypto
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/crypto/crypto-md5.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/builtins/crypto/crypto-sha1.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.compress.core
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.compress.core/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.compress.google
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.compress.google/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.compress.yahoo
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.compress.yahoo/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.scan.html
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.scan.html/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.targ.html
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/crap-pods/sard.targ.html/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/sard.package.core
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/sard.package.core/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/sard.scan.core
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/sard.scan.core/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/notify.growl
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/notify.growl/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/notify.growl/icons
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/notify.growl/icons/node_error.png
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/notify.growl/icons/node_info.png
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/sard.scan.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/sard.scan.js/index.js
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/sard.scan.js/lib
+silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines/lib/beans/sard.scan.js/lib/scanner.js
+verbose gunzed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines
+verbose rm'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/package
+verbose renamed [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/___package.npm/sardines',
+verbose renamed   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/package' ]
 silly testEngine { name: 'sardines',
 silly testEngine   descriptions: 'Stress-free javascript source combining.',
 silly testEngine   version: '0.0.8',
@@ -277,18 +277,18 @@ silly testEngine   _engineSupported: true,
 silly testEngine   _npmVersion: '1.0.103',
 silly testEngine   _nodeVersion: 'v0.4.12',
 silly testEngine   _defaultsLoaded: true,
-silly testEngine   path: '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/package' }
-verbose caching /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/package/package.json
+silly testEngine   path: '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/package' }
+verbose caching /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/package/package.json
 verbose loadDefaults sardines@0.0.8
 verbose tarball contents [ 'package' ]
-verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/package/package.json
-verbose pack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents/package /Users/craig/.npm/sardines/0.0.8/package.tgz
+verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/package/package.json
+verbose pack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents/package /Users/craig/.npm/sardines/0.0.8/package.tgz
 verbose mkdir'ed /Users/craig/.npm/sardines/0.0.8
 verbose tar about to write tar and gzip it.
 silly tar args [ '-czvf', '-', '-T', '-' ]
 silly spawning [ 'tar',
 silly spawning   [ '-czvf', '-', '-T', '-' ],
-silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526662917-0.3226472132373601/contents' ]
+silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526983267/1320526983267-0.3013149055186659/contents' ]
 verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/sardines/0.0.8/___package.npm'
 verbose mkdir done: /Users/craig/.npm/sardines/0.0.8/___package.npm 755
 verbose unpack_ uid, gid [ undefined, undefined ]
@@ -402,9 +402,9 @@ silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/li
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/http2.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/https.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/https2.js
+silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/module.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/net_legacy.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/net_uv.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/module.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/os.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/path.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/punycode.js
@@ -438,10 +438,10 @@ silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/li
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.targ.html
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.targ.html/index.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.core
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.core/index.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.package.core
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.package.core/index.js
+silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.core
+silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.core/index.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/notify.growl
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/notify.growl/index.js
 silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/notify.growl/icons
@@ -484,7 +484,7 @@ silly testEngine   _npmVersion: '1.0.103',
 silly testEngine   _nodeVersion: 'v0.4.12',
 silly testEngine   _defaultsLoaded: true,
 silly testEngine   dist: 
-silly testEngine    { shasum: 'ad3c0516d239b30acbf41b810e10293294a7f494',
+silly testEngine    { shasum: '0538e580c560046d8d285e4c517d543fa5c23d11',
 silly testEngine      tarball: 'http://registry.npmjs.org/sardines/-/sardines-0.0.8.tgz' } }
 verbose caching /Users/craig/.npm/sardines/0.0.8/package/package.json
 verbose loadDefaults sardines@0.0.8
@@ -492,7 +492,7 @@ silly updated sha bytes 40960
 silly updated sha bytes 40960
 silly updated sha bytes 40960
 silly updated sha bytes 20480
-info shasum 3c054de1bd394ecf734e26c6ea1c353c09731ada
+info shasum 0538e580c560046d8d285e4c517d543fa5c23d11
 info shasum /Users/craig/.npm/sardines/0.0.8/package.tgz
 verbose from cache /Users/craig/.npm/sardines/0.0.8/package/package.json
 verbose chmod /Users/craig/.npm/sardines/0.0.8/package.tgz 644
@@ -528,487 +528,7 @@ silly publish   _npmVersion: '1.0.103',
 silly publish   _nodeVersion: 'v0.4.12',
 silly publish   _defaultsLoaded: true,
 silly publish   dist: 
-silly publish    { shasum: 'ad3c0516d239b30acbf41b810e10293294a7f494',
-silly publish      tarball: 'http://registry.npmjs.org/sardines/-/sardines-0.0.8.tgz' } }
-verbose PUT sardines
-verbose raw, before any munging sardines
-verbose url resolving [ 'https://registry.npmjs.org/', './sardines' ]
-verbose url resolved https://registry.npmjs.org/sardines
-verbose GET sardines
-verbose raw, before any munging sardines
-verbose url resolving [ 'https://registry.npmjs.org/', './sardines' ]
-verbose url resolved https://registry.npmjs.org/sardines
-info Already published sardines@0.0.8
-verbose uploading bin dists []
-WARN publish Forced publish over sardines@0.0.8
-verbose GET sardines
-verbose raw, before any munging sardines
-verbose url resolving [ 'https://registry.npmjs.org/', './sardines' ]
-verbose url resolved https://registry.npmjs.org/sardines
-silly get cb [ 200,
-silly get cb   { vary: 'Accept',
-silly get cb     server: 'CouchDB/1.1.1 (Erlang OTP/R14B04)',
-silly get cb     etag: '"RL3F1ZBZ2MRUQ9LLDEXYGK0Z"',
-silly get cb     date: 'Sat, 05 Nov 2011 20:57:50 GMT',
-silly get cb     'content-type': 'application/json',
-silly get cb     'content-length': '5888' } ]
-verbose removing attachments { shasum: '9f62cbf80659e8a2be30692bf165dcafabc7e9c0',
-verbose removing attachments   tarball: 'http://registry.npmjs.org/sardines/-/sardines-0.0.8.tgz' }
-verbose PUT sardines/-rev/25-a3d978480e27f02bcdc5ed5a014d0b34
-verbose raw, before any munging sardines/-rev/25-a3d978480e27f02bcdc5ed5a014d0b34
-verbose url resolving [ 'https://registry.npmjs.org/',
-verbose url resolving   './sardines/-rev/25-a3d978480e27f02bcdc5ed5a014d0b34' ]
-verbose url resolved https://registry.npmjs.org/sardines/-rev/25-a3d978480e27f02bcdc5ed5a014d0b34
-verbose GET sardines
-verbose raw, before any munging sardines
-verbose url resolving [ 'https://registry.npmjs.org/', './sardines' ]
-verbose url resolved https://registry.npmjs.org/sardines
-silly get cb [ 200,
-silly get cb   { vary: 'Accept',
-silly get cb     server: 'CouchDB/1.1.1 (Erlang OTP/R14B04)',
-silly get cb     etag: '"BT9EA7RDJGEM5VHLK5040QXE9"',
-silly get cb     date: 'Sat, 05 Nov 2011 20:57:51 GMT',
-silly get cb     'content-type': 'application/json',
-silly get cb     'content-length': '4956' } ]
-info detach /sardines/-/sardines-0.0.8.tgz/-rev/26-74d214eab5edf3a20999f66facc0badf
-verbose DELETE /sardines/-/sardines-0.0.8.tgz/-rev/26-74d214eab5edf3a20999f66facc0badf
-verbose raw, before any munging /sardines/-/sardines-0.0.8.tgz/-rev/26-74d214eab5edf3a20999f66facc0badf
-verbose url resolving [ 'https://registry.npmjs.org/',
-verbose url resolving   './sardines/-/sardines-0.0.8.tgz/-rev/26-74d214eab5edf3a20999f66facc0badf' ]
-verbose url resolved https://registry.npmjs.org/sardines/-/sardines-0.0.8.tgz/-rev/26-74d214eab5edf3a20999f66facc0badf
-verbose publish [ '.' ]
-verbose from cache /Users/craig/Dropbox/Developer/Public/sardines/package.json
-info prepublish sardines@0.0.8
-verbose cache add [ '.', null ]
-silly cache add: name, spec, args [ undefined, '.', [ '.', null ] ]
-verbose parsed url { pathname: '.', href: '.' }
-verbose from cache package.json
-verbose pack /Users/craig/Dropbox/Developer/Public/sardines /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/tmp.tgz
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375'
-verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375 755
-verbose mkdir'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375
-verbose tar about to write tar and gzip it.
-silly tar args [ '-czvf', '-', '-T', '-' ]
-silly spawning [ 'tar',
-silly spawning   [ '-czvf', '-', '-T', '-' ],
-silly spawning   '/Users/craig/Dropbox/Developer/Public' ]
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents'
-verbose mkdir (expected) error ENOENT, No such file or directory '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm'
-verbose mkdir done: /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm 755
-verbose unpack_ uid, gid [ undefined, undefined ]
-verbose unpackTarget /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/package
-silly gunzTarPerm modes [ '755', '644' ]
-silly spawning [ 'tar',
-silly spawning   [ '-zmvxpf',
-silly spawning     '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/tmp.tgz',
-silly spawning     '-o' ],
-silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm' ]
-silly tar err x sardines/.cupboard
-silly tar err x sardines/.gitignore
-silly tar err x sardines/MIT-LICENSE.txt
-silly tar err x sardines/package.json
-silly tar err x sardines/README.md
-silly tar err x sardines/sardines.tmproj
-silly tar err x sardines/bin/sardines
-silly tar err x sardines/lib/index.js
-silly tar err x sardines/lib/libs/sdutils.js
-silly tar err x sardines/lib/wrappers/process.js
-silly tar err x sardines/lib/builtins/_debugger.js
-silly tar err x sardines/lib/builtins/_linklist.js
-silly tar err x sardines/lib/builtins/assert.js
-silly tar err x sardines/lib/builtins/buffer.js
-silly tar err x sardines/lib/builtins/buffer_ieee754.js
-silly tar err x sardines/lib/builtins/child_process_legacy.js
-silly tar err x sardines/lib/builtins/child_process_uv.js
-silly tar err x sardines/lib/builtins/console.js
-silly tar err x sardines/lib/builtins/constants.js
-silly tar err x sardines/lib/builtins/crypto.js
-silly tar err x sardines/lib/builtins/dgram_legacy.js
-silly tar err x sardines/lib/builtins/dgram_uv.js
-silly tar err x sardines/lib/builtins/dns_legacy.js
-silly tar err x sardines/lib/builtins/dns_uv.js
-silly tar err x sardines/lib/builtins/events.js
-silly tar err x sardines/lib/builtins/freelist.js
-silly tar err x sardines/lib/builtins/fs.js
-silly tar err x sardines/lib/builtins/http2.js
-silly tar err x sardines/lib/builtins/https.js
-silly tar err x sardines/lib/builtins/http.js
-silly tar err x sardines/lib/builtins/https2.js
-silly tar err x sardines/lib/builtins/module.js
-silly tar err x sardines/lib/builtins/net_legacy.js
-silly tar err x sardines/lib/builtins/net_uv.js
-silly tar err x sardines/lib/builtins/os.js
-silly tar err x sardines/lib/builtins/path.js
-silly tar err x sardines/lib/builtins/punycode.js
-silly tar err x sardines/lib/builtins/querystring.js
-silly tar err x sardines/lib/builtins/readline.js
-silly tar err x sardines/lib/builtins/repl.js
-silly tar err x sardines/lib/builtins/stream.js
-silly tar err x sardines/lib/builtins/string_decoder.js
-silly tar err x sardines/lib/builtins/sys.js
-silly tar err x sardines/lib/builtins/timers_legacy.js
-silly tar err x sardines/lib/builtins/timers_uv.js
-silly tar err x sardines/lib/builtins/tls.js
-silly tar err x sardines/lib/builtins/tty.js
-silly tar err x sardines/lib/builtins/tty_posix.js
-silly tar err x sardines/lib/builtins/tty_win32.js
-silly tar err x sardines/lib/builtins/url.js
-silly tar err x sardines/lib/builtins/util.js
-silly tar err x sardines/lib/builtins/vm.js
-silly tar err x sardines/lib/builtins/crypto/crypto-md5.js
-silly tar err x sardines/lib/builtins/crypto/crypto-sha1.js
-silly tar err x sardines/lib/crap-pods/sard.compress.core/index.js
-silly tar err x sardines/lib/crap-pods/sard.compress.google/index.js
-silly tar err x sardines/lib/crap-pods/sard.compress.yahoo/index.js
-silly tar err x sardines/lib/crap-pods/sard.scan.html/index.js
-silly tar err x sardines/lib/crap-pods/sard.targ.html/index.js
-silly tar err x sardines/lib/beans/sard.package.core/index.js
-silly tar err x sardines/lib/beans/sard.scan.core/index.js
-silly tar err x sardines/lib/beans/notify.growl/index.js
-silly tar err x sardines/lib/beans/notify.growl/icons/node_error.png
-silly tar err x sardines/lib/beans/notify.growl/icons/node_info.png
-silly tar err x sardines/lib/beans/sard.scan.js/index.js
-silly tar err x sardines/lib/beans/sard.scan.js/lib/scanner.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/.cupboard
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/.gitignore
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/MIT-LICENSE.txt
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/package.json
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/README.md
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/sardines.tmproj
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/bin
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/bin/sardines
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/libs
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/libs/sdutils.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/wrappers
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/wrappers/process.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/_debugger.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/_linklist.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/assert.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/buffer.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/buffer_ieee754.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/child_process_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/child_process_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/console.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/constants.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/crypto.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/dgram_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/dgram_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/dns_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/dns_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/events.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/freelist.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/fs.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/http.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/http2.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/https.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/https2.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/module.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/net_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/net_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/os.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/path.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/punycode.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/querystring.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/readline.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/repl.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/stream.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/string_decoder.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/sys.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/timers_legacy.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/timers_uv.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/tls.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/tty.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/tty_posix.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/tty_win32.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/url.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/util.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/vm.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/crypto
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/crypto/crypto-md5.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/builtins/crypto/crypto-sha1.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.compress.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.compress.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.compress.google
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.compress.google/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.compress.yahoo
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.compress.yahoo/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.scan.html
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.scan.html/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.targ.html
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/crap-pods/sard.targ.html/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/sard.package.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/sard.package.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/sard.scan.core
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/sard.scan.core/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/notify.growl
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/notify.growl/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/notify.growl/icons
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/notify.growl/icons/node_error.png
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/notify.growl/icons/node_info.png
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/sard.scan.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/sard.scan.js/index.js
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/sard.scan.js/lib
-silly asyncMap in gTP /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines/lib/beans/sard.scan.js/lib/scanner.js
-verbose gunzed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines
-verbose rm'ed /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/package
-verbose renamed [ '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/___package.npm/sardines',
-verbose renamed   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/package' ]
-silly testEngine { name: 'sardines',
-silly testEngine   descriptions: 'Stress-free javascript source combining.',
-silly testEngine   version: '0.0.8',
-silly testEngine   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
-silly testEngine   bin: { sardines: './bin/sardines' },
-silly testEngine   repository: 
-silly testEngine    { type: 'git',
-silly testEngine      url: 'git://github.com/spiceapps/sardines.git' },
-silly testEngine   main: './lib/index.js',
-silly testEngine   dependencies: 
-silly testEngine    { sk: '*',
-silly testEngine      beanpole: '*',
-silly testEngine      beet: '*',
-silly testEngine      vine: '*',
-silly testEngine      resolve: '*',
-silly testEngine      wrench: '*',
-silly testEngine      underscore: '*',
-silly testEngine      burrito: '*',
-silly testEngine      growl: '*',
-silly testEngine      aster: '*' },
-silly testEngine   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
-silly testEngine   _id: 'sardines@0.0.8',
-silly testEngine   devDependencies: {},
-silly testEngine   engines: { node: '*' },
-silly testEngine   _engineSupported: true,
-silly testEngine   _npmVersion: '1.0.103',
-silly testEngine   _nodeVersion: 'v0.4.12',
-silly testEngine   _defaultsLoaded: true,
-silly testEngine   path: '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/package' }
-verbose caching /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/package/package.json
-verbose loadDefaults sardines@0.0.8
-verbose tarball contents [ 'package' ]
-verbose from cache /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/package/package.json
-verbose pack /var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents/package /Users/craig/.npm/sardines/0.0.8/package.tgz
-verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/sardines/0.0.8'
-verbose mkdir done: /Users/craig/.npm/sardines/0.0.8 755
-verbose mkdir'ed /Users/craig/.npm/sardines/0.0.8
-verbose tar about to write tar and gzip it.
-silly tar args [ '-czvf', '-', '-T', '-' ]
-silly spawning [ 'tar',
-silly spawning   [ '-czvf', '-', '-T', '-' ],
-silly spawning   '/var/folders/n1/r96x64mx6jzcbzkbz1ddrw6r0000gn/T/npm-1320526662986/1320526670310-0.43464651284739375/contents' ]
-verbose mkdir (expected) error ENOENT, No such file or directory '/Users/craig/.npm/sardines/0.0.8/___package.npm'
-verbose mkdir done: /Users/craig/.npm/sardines/0.0.8/___package.npm 755
-verbose unpack_ uid, gid [ undefined, undefined ]
-verbose unpackTarget /Users/craig/.npm/sardines/0.0.8/package
-silly gunzTarPerm modes [ '755', '644' ]
-silly spawning [ 'tar',
-silly spawning   [ '-zmvxpf',
-silly spawning     '/Users/craig/.npm/sardines/0.0.8/package.tgz',
-silly spawning     '-o' ],
-silly spawning   '/Users/craig/.npm/sardines/0.0.8/___package.npm' ]
-silly tar err x package/.cupboard
-silly tar err x package/.gitignore
-silly tar err x package/MIT-LICENSE.txt
-silly tar err x package/package.json
-silly tar err x package/README.md
-silly tar err x package/sardines.tmproj
-silly tar err x package/bin/sardines
-silly tar err x package/lib/index.js
-silly tar err x package/lib/libs/sdutils.js
-silly tar err x package/lib/wrappers/process.js
-silly tar err x package/lib/builtins/_debugger.js
-silly tar err x package/lib/builtins/_linklist.js
-silly tar err x package/lib/builtins/assert.js
-silly tar err x package/lib/builtins/buffer.js
-silly tar err x package/lib/builtins/buffer_ieee754.js
-silly tar err x package/lib/builtins/child_process_legacy.js
-silly tar err x package/lib/builtins/child_process_uv.js
-silly tar err x package/lib/builtins/console.js
-silly tar err x package/lib/builtins/constants.js
-silly tar err x package/lib/builtins/crypto.js
-silly tar err x package/lib/builtins/dgram_uv.js
-silly tar err x package/lib/builtins/dgram_legacy.js
-silly tar err x package/lib/builtins/dns_legacy.js
-silly tar err x package/lib/builtins/dns_uv.js
-silly tar err x package/lib/builtins/events.js
-silly tar err x package/lib/builtins/freelist.js
-silly tar err x package/lib/builtins/fs.js
-silly tar err x package/lib/builtins/http.js
-silly tar err x package/lib/builtins/http2.js
-silly tar err x package/lib/builtins/https.js
-silly tar err x package/lib/builtins/module.js
-silly tar err x package/lib/builtins/net_legacy.js
-silly tar err x package/lib/builtins/net_uv.js
-silly tar err x package/lib/builtins/os.js
-silly tar err x package/lib/builtins/https2.js
-silly tar err x package/lib/builtins/path.js
-silly tar err x package/lib/builtins/punycode.js
-silly tar err x package/lib/builtins/readline.js
-silly tar err x package/lib/builtins/querystring.js
-silly tar err x package/lib/builtins/repl.js
-silly tar err x package/lib/builtins/stream.js
-silly tar err x package/lib/builtins/string_decoder.js
-silly tar err x package/lib/builtins/sys.js
-silly tar err x package/lib/builtins/timers_legacy.js
-silly tar err x package/lib/builtins/timers_uv.js
-silly tar err x package/lib/builtins/tls.js
-silly tar err x package/lib/builtins/tty_posix.js
-silly tar err x package/lib/builtins/tty.js
-silly tar err x package/lib/builtins/tty_win32.js
-silly tar err x package/lib/builtins/url.js
-silly tar err x package/lib/builtins/vm.js
-silly tar err x package/lib/builtins/util.js
-silly tar err x package/lib/builtins/crypto/crypto-md5.js
-silly tar err x package/lib/builtins/crypto/crypto-sha1.js
-silly tar err x package/lib/crap-pods/sard.compress.core/index.js
-silly tar err x package/lib/crap-pods/sard.compress.yahoo/index.js
-silly tar err x package/lib/crap-pods/sard.compress.google/index.js
-silly tar err x package/lib/crap-pods/sard.scan.html/index.js
-silly tar err x package/lib/crap-pods/sard.targ.html/index.js
-silly tar err x package/lib/beans/sard.package.core/index.js
-silly tar err x package/lib/beans/sard.scan.core/index.js
-silly tar err x package/lib/beans/notify.growl/index.js
-silly tar err x package/lib/beans/notify.growl/icons/node_error.png
-silly tar err x package/lib/beans/notify.growl/icons/node_info.png
-silly tar err x package/lib/beans/sard.scan.js/index.js
-silly tar err x package/lib/beans/sard.scan.js/lib/scanner.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/.cupboard
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/.gitignore
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/MIT-LICENSE.txt
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/package.json
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/README.md
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/sardines.tmproj
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/bin
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/bin/sardines
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/libs
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/libs/sdutils.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/wrappers
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/wrappers/process.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/_debugger.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/_linklist.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/assert.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/buffer.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/buffer_ieee754.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/child_process_legacy.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/child_process_uv.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/console.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/constants.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/crypto.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/dgram_legacy.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/dgram_uv.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/dns_legacy.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/dns_uv.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/events.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/freelist.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/fs.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/http.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/http2.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/https.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/https2.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/module.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/net_legacy.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/net_uv.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/os.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/path.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/punycode.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/querystring.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/readline.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/repl.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/stream.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/string_decoder.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/sys.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/timers_legacy.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/timers_uv.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/tls.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/tty.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/tty_posix.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/tty_win32.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/url.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/util.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/vm.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/crypto
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/crypto/crypto-md5.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/builtins/crypto/crypto-sha1.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.compress.core
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.compress.core/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.compress.google
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.compress.google/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.compress.yahoo
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.compress.yahoo/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.scan.html
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.scan.html/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.targ.html
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/crap-pods/sard.targ.html/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.package.core
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.package.core/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.core
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.core/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/notify.growl
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/notify.growl/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/notify.growl/icons
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/notify.growl/icons/node_error.png
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/notify.growl/icons/node_info.png
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.js/index.js
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.js/lib
-silly asyncMap in gTP /Users/craig/.npm/sardines/0.0.8/___package.npm/package/lib/beans/sard.scan.js/lib/scanner.js
-verbose gunzed /Users/craig/.npm/sardines/0.0.8/___package.npm/package
-verbose rm'ed /Users/craig/.npm/sardines/0.0.8/package
-verbose renamed [ '/Users/craig/.npm/sardines/0.0.8/___package.npm/package',
-verbose renamed   '/Users/craig/.npm/sardines/0.0.8/package' ]
-verbose from cache /Users/craig/.npm/sardines/0.0.8/package/package.json
-silly updated sha bytes 40960
-silly updated sha bytes 40960
-silly updated sha bytes 40960
-silly updated sha bytes 20480
-info shasum ad3c0516d239b30acbf41b810e10293294a7f494
-info shasum /Users/craig/.npm/sardines/0.0.8/package.tgz
-verbose from cache /Users/craig/.npm/sardines/0.0.8/package/package.json
-verbose chmod /Users/craig/.npm/sardines/0.0.8/package.tgz 644
-verbose chown [ '/Users/craig/.npm/sardines/0.0.8/package.tgz',
-verbose chown   501,
-verbose chown   20 ]
-silly publish { name: 'sardines',
-silly publish   descriptions: 'Stress-free javascript source combining.',
-silly publish   version: '0.0.8',
-silly publish   author: { name: 'Craig Condon', email: 'craig@spiceapps.com' },
-silly publish   bin: { sardines: './bin/sardines' },
-silly publish   repository: 
-silly publish    { type: 'git',
-silly publish      url: 'git://github.com/spiceapps/sardines.git' },
-silly publish   main: './lib/index.js',
-silly publish   dependencies: 
-silly publish    { sk: '*',
-silly publish      beanpole: '*',
-silly publish      beet: '*',
-silly publish      vine: '*',
-silly publish      resolve: '*',
-silly publish      wrench: '*',
-silly publish      underscore: '*',
-silly publish      burrito: '*',
-silly publish      growl: '*',
-silly publish      aster: '*' },
-silly publish   _npmUser: { name: 'architectd', email: 'craig@spiceapps.com' },
-silly publish   _id: 'sardines@0.0.8',
-silly publish   devDependencies: {},
-silly publish   engines: { node: '*' },
-silly publish   _engineSupported: true,
-silly publish   _npmVersion: '1.0.103',
-silly publish   _nodeVersion: 'v0.4.12',
-silly publish   _defaultsLoaded: true,
-silly publish   dist: 
-silly publish    { shasum: 'ad3c0516d239b30acbf41b810e10293294a7f494',
+silly publish    { shasum: '0538e580c560046d8d285e4c517d543fa5c23d11',
 silly publish      tarball: 'http://registry.npmjs.org/sardines/-/sardines-0.0.8.tgz' } }
 verbose PUT sardines
 verbose raw, before any munging sardines
