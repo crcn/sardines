@@ -1,0 +1,16 @@
+
+	if [ -a /Library/LaunchDaemons ]
+	then
+		sudo launchctl unload -w /Library/LaunchDaemons/node.js./Users/craigcondon/Dropbox/work/Spice2/spice.io/servers.plist
+	else
+
+		
+		MONIT_PID="` ps ax | grep .//Users/craigcondon/Dropbox/work/Spice2/spice.io/servers.monit | awk '{print $1}'`"
+		echo $MONIT_PID
+		kill $MONIT_PID
+		stop /Users/craigcondon/Dropbox/work/Spice2/spice.io/servers
+	fi
+	
+	
+
+	

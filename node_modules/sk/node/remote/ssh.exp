@@ -1,0 +1,16 @@
+set host [lindex $argv 0]
+set user [lindex $argv 1]
+set pass [lindex $argv 2]
+set sshArg [lindex $argv 3]
+
+spawn ssh -o StrictHostKeyChecking=no -l root $host $sshArg
+
+#expect "yes/no" {
+#	send "yes\r"
+#}
+
+expect "*?assword:*" {
+	send "$pass\r"
+}
+
+interact

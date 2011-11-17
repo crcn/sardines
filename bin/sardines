@@ -2,10 +2,15 @@
 
 var args = process.argv.concat(),
 	sardines = require('../lib');
-	ops = { args: args.concat() };
+	ops = { args: args.concat(), input: [] };
 	
 
 require('sk/node/log');
+
+function absPath(path)
+{
+	return path.substr(0,1) == '/' ? path : process.cwd() + '/' + path;
+};
 
 while(args.length)
 {
@@ -13,41 +18,25 @@ while(args.length)
 	switch(arg)
 	{
 		case '-i':
-		case '-input':
-			ops.input = args.shift();
+		case '--input':
+			ops.input.unshift(absPath(args.shift()));
 		break;
 		case '-o':
-		case '-output':
-			ops.output = args.shift();
-		break;
-		case '-c':
-		case '-config':
-			ops.config = args.shift();
-		break;
-		case '-w':
-		case '-watch':
-			ops.watch = true;
-			console.success('Watching project for any changes'.underline);
-		break;
-		case '-z':
-		case '-zip':
-			ops.compress = args.shift();
-		break;
-		case '-d':
-		case '-daemonize':
-		case '-daemonize-that-shit':
-			ops.daemonize = true;
-			var i = ops.args.indexOf(arg);
-			ops.args.splice(i, 1);
+		case '--output':
+			ops.output = absPath(args.shift());
 		break;
 		case '-n':
-		case '-name':
+		case '--name':
 			ops.name = args.shift();
+		break;
+		case '-p':
+		case '--pretty':
+			ops.pretty = true;
 		break;
 	}
 }
 
+
 sardines.package(ops, function()
 {
-	require('sdutils').boom();
 })
