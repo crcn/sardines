@@ -1,7 +1,7 @@
 {
     "name": "sardines",
     "descriptions": "Stress-free javascript source combining.",
-    "version": "0.1.1",
+    "version": "0.2.0",
     "author": "Craig Condon <craig@spiceapps.com>",
     "bin": {
         "sardines": "./bin/sardines"
@@ -12,6 +12,7 @@
     },
     "main": "./lib/index.js",
     "dependencies": {
+        "structr": "*",
         "sk": "*",
         "beanpole": "*",
         "vine": "*",
