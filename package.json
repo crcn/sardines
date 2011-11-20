@@ -1,7 +1,7 @@
 {
-    "name":"sardines",
+    "name": "sardines",
     "descriptions": "Stress-free javascript source combining.",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "author": "Craig Condon <craig@spiceapps.com>",
     "bin": {
         "sardines": "./bin/sardines"
@@ -12,13 +12,13 @@
     },
     "main": "./lib/index.js",
     "dependencies": {
-        "sk":"*",
-        "beanpole":"*",
-        "vine":"*",
-        "resolve":"*",
-		"wrench":"*",
-		"underscore":"*",
-		"uglify-js":"*",
-		"detective":"*"
+        "sk": "*",
+        "beanpole": "*",
+        "vine": "*",
+        "resolve": "*",
+        "wrench": "*",
+        "underscore": "*",
+        "uglify-js": "*",
+        "detective": "*"
     }
 }
