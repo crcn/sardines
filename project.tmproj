@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>currentDocument</key>
-	<string>lib/core/combine.js</string>
+	<string>lib/core/wrappers/pre.js</string>
 	<key>documents</key>
 	<array>
 		<dict>
@@ -140,58 +140,28 @@
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>1</integer>
 				<key>line</key>
-				<integer>308</integer>
+				<integer>85</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>291</integer>
+			<integer>364</integer>
 		</dict>
 		<key>lib/core/index.js</key>
 		<dict>
 			<key>caret</key>
 			<dict>
 				<key>column</key>
-				<integer>2</integer>
+				<integer>77</integer>
 				<key>line</key>
-				<integer>22</integer>
+				<integer>14</integer>
 			</dict>
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>9</integer>
-		</dict>
-		<key>lib/core/scanner.js</key>
-		<dict>
-			<key>caret</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>178</integer>
-			</dict>
-			<key>columnSelection</key>
-			<false/>
-			<key>firstVisibleColumn</key>
 			<integer>0</integer>
-			<key>firstVisibleLine</key>
-			<integer>312</integer>
-			<key>selectFrom</key>
-			<dict>
-				<key>column</key>
-				<integer>4</integer>
-				<key>line</key>
-				<integer>184</integer>
-			</dict>
-			<key>selectTo</key>
-			<dict>
-				<key>column</key>
-				<integer>1</integer>
-				<key>line</key>
-				<integer>178</integer>
-			</dict>
 		</dict>
 		<key>lib/core/utils/mu.js</key>
 		<dict>
@@ -235,6 +205,20 @@
 			<key>firstVisibleLine</key>
 			<integer>0</integer>
 		</dict>
+		<key>lib/core/wrappers/pre.js</key>
+		<dict>
+			<key>caret</key>
+			<dict>
+				<key>column</key>
+				<integer>2</integer>
+				<key>line</key>
+				<integer>3</integer>
+			</dict>
+			<key>firstVisibleColumn</key>
+			<integer>0</integer>
+			<key>firstVisibleLine</key>
+			<integer>0</integer>
+		</dict>
 		<key>lib/core/wrappers/registerModule.js</key>
 		<dict>
 			<key>caret</key>
@@ -261,7 +245,7 @@
 			<key>firstVisibleColumn</key>
 			<integer>0</integer>
 			<key>firstVisibleLine</key>
-			<integer>30</integer>
+			<integer>103</integer>
 		</dict>
 		<key>lib/index.js</key>
 		<dict>
@@ -406,11 +390,11 @@
 		<string>node_modules/aster/README.md</string>
 		<string>node_modules/aster/package.json</string>
 		<string>lib/core/index.js</string>
+		<string>lib/core/wrappers/pre.js</string>
 		<string>lib/core/wrappers/footer.js</string>
 		<string>lib/core/wrappers/body.js</string>
 		<string>lib/core/wrappers/registerModule.js</string>
 		<string>lib/core/wrappers/require.js</string>
-		<string>lib/core/scanner.js</string>
 		<string>lib/core/combine.js</string>
 		<string>node_modules/sk/core/garbage.js</string>
 		<string>lib/builtins/url.js</string>
