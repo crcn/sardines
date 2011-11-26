@@ -2,7 +2,22 @@
 	"folders":
 	[
 		{
-			"path": "/Users/craig/.cupboard/projects/sardines"
+			"path": "."
+		}
+	],
+	"build_systems":
+	[
+		{
+			"name":"cbd make",
+			"cmd":["cbd","make","sardines"]
+		},
+		{
+			"name":"cbd start",
+			"cmd":["cbd","start","sardines"]
+		},
+		{
+			"name":"cbd make+start",
+			"cmd":["cbd","make+start","sardines"]
 		}
 	]
 }
