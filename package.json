@@ -2,13 +2,13 @@
     "name": "sardines",
     "descriptions": "Stress-free javascript source combining.",
     "version": "0.2.0",
-    "author": "Craig Condon <craig@spiceapps.com>",
+    "author": "Craig Condon <craig@crcn.com>",
     "bin": {
         "sardines": "./bin/sardines"
     },
     "repository": {
         "type": "git",
-        "url": "http://github.com/spiceapps/sardines.git"
+        "url": "http://github.com/crcn/sardines.git"
     },
     "main": "./lib/index.js",
     "dependencies": {
