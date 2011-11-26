@@ -1,5 +1,5 @@
-var $name = (function(){
-	$body
+var $$$name = (function(){
+	$$$body
 })();
 
 
