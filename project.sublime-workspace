@@ -8,10 +8,10 @@
 	"buffers":
 	[
 		{
-			"file": "lib/core/index.js",
+			"file": "/tmp/subl stdin CAuIo3.txt",
 			"settings":
 			{
-				"buffer_size": 1410,
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -19,15 +19,23 @@
 			"file": "lib/core/combine.js",
 			"settings":
 			{
-				"buffer_size": 7031,
+				"buffer_size": 6969,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"file": "lib/core/utils/mu.js",
+			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 477,
+				"buffer_size": 594,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/core/index.js",
+			"settings":
+			{
+				"buffer_size": 1408,
 				"line_ending": "Unix"
 			}
 		}
@@ -43,7 +51,7 @@
 	},
 	"console":
 	{
-		"height": 0.0
+		"height": 51.0
 	},
 	"distraction_free":
 	{
@@ -56,18 +64,40 @@
 	},
 	"file_history":
 	[
-		"/Users/craig/Dropbox/Developer/Public/sardines/lib/core/wrappers/body.js.tpl",
-		"/Users/craig/Dropbox/Developer/Public/sardines/lib/core/wrappers/registerModule.js.tpl",
-		"/tmp/subl stdin 4tcnC0.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/nexe/package.json",
+		"/tmp/subl stdin sPb7bK.txt",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Public/nexe/bin/nexe",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/fig/lib/core/views/concrete.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/fig/lib/core/views/abstract.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/fig/lib/core/views/model.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/fig/lib/core/views/template.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/groups.part.saved.core/delegates.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/bean.http/plugin/beans/http.gateway/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/groups.part.saved.core/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/groups.part.saved.subscription.email/index.js",
 		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.creation/index.js",
-		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/abstract.js",
+		"/Volumes/minimac/Users/craig/Dropbox/Developer/Jobs/Spice/private/teamdigest/package.json",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.core/index.js",
+		"/Users/craig/Desktop/global-lock.png",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/web/views/tpl/digest.mu",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.digest/views.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.bookmarklet/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/item.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/groups.core/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.digest/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/leche.spice.io/shared/beans/spice.io.core/models.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/shared/beans/teamdigest.creation/views.js",
+		"/Users/craig/.cupboard/projects/teamdigest/node_modules/leche.spice.io/shared/beans/connect.core/index.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/web/views/tpl/creation.mu",
+		"/tmp/subl stdin D0Hull.txt",
 		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/remote.js",
-		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/collection.js",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/abstract.js",
 		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/concrete.js",
+		"/tmp/subl stdin 9SDm50.txt",
+		"/Users/craig/.cupboard/projects/teamdigest/lib/front/node_modules/malt/lib/core/models/collection.js",
 		"/Users/craig/.cupboard/projects/teamdigest/node_modules/spice.io/beans/auth.profile/index.js",
 		"/Users/craig/Library/Application Support/Sublime Text 2/Packages/User/Base File.sublime-settings",
-		"/tmp/subl stdin qOmgFT.txt",
-		"/Users/craig/.cupboard/projects/teamdigest/node_modules/leche.spice.io/shared/beans/spice.io.core/models.js"
+		"/tmp/subl stdin qOmgFT.txt"
 	],
 	"find":
 	{
@@ -85,10 +115,21 @@
 		"case_sensitive": false,
 		"find_history":
 		[
-			"end",
-			"'end",
-			"combine",
-			"include",
+			"findPackageMainScript",
+			"inputs",
+			"onDataChange",
+			"_setEleme",
+			"'update",
+			"update",
+			"group",
+			"c_savedArticles",
+			"group:",
+			"urlParts",
+			"request",
+			"Removing",
+			"EditArt",
+			"editArt",
+			"editArticle",
 			"Digest:",
 			"recipients",
 			"specificEmails",
@@ -120,28 +161,28 @@
 	"groups":
 	[
 		{
+			"selected": 3,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "lib/core/index.js",
+					"file": "/tmp/subl stdin CAuIo3.txt",
 					"settings":
 					{
-						"buffer_size": 1410,
+						"buffer_size": 0,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1239,
-								1239
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"translate_tabs_to_spaces": false
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -154,15 +195,15 @@
 					"file": "lib/core/combine.js",
 					"settings":
 					{
-						"buffer_size": 7031,
+						"buffer_size": 6969,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								6216,
-								6219
+								0,
+								0
 							]
 						],
 						"settings":
@@ -171,25 +212,53 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 5040.0,
+						"translation.y": 6072.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
 				},
 				{
 					"buffer": 2,
-					"file": "lib/core/utils/mu.js",
+					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 477,
+						"buffer_size": 594,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								230,
-								230
+								594,
+								594
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JSON.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "lib/core/index.js",
+					"settings":
+					{
+						"buffer_size": 1408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
 							]
 						],
 						"settings":
@@ -212,7 +281,7 @@
 	},
 	"input":
 	{
-		"height": 28.0
+		"height": 30.0
 	},
 	"layout":
 	{
@@ -248,6 +317,86 @@
 		"selected_items":
 		[
 			[
+				"figabst",
+				"node_modules/fig/lib/core/views/abstract.js"
+			],
+			[
+				"figmode",
+				"node_modules/fig/lib/core/views/model.js"
+			],
+			[
+				"figtemplat",
+				"node_modules/fig/lib/core/views/template.js"
+			],
+			[
+				"figmodel",
+				"node_modules/fig/lib/core/views/model.js"
+			],
+			[
+				"figabs",
+				"node_modules/fig/lib/core/views/abstract.js"
+			],
+			[
+				"figviews/",
+				"node_modules/fig/lib/core/views/concrete.js"
+			],
+			[
+				"figviews",
+				"node_modules/fig/lib/core/views/model.js"
+			],
+			[
+				"saveddelegat",
+				"node_modules/spice.io/beans/groups.part.saved.core/delegates.js"
+			],
+			[
+				"spicesavedinde",
+				"node_modules/spice.io/beans/groups.part.saved.subscription.email/index.js"
+			],
+			[
+				"saveddelega",
+				"node_modules/spice.io/beans/groups.part.saved.core/delegates.js"
+			],
+			[
+				"spice.iosaved",
+				"node_modules/spice.io/beans/groups.part.saved.core/index.js"
+			],
+			[
+				"spice.iosaveddele",
+				"node_modules/spice.io/beans/groups.part.saved.core/delegates.js"
+			],
+			[
+				"spice.iosavedind",
+				"node_modules/spice.io/beans/groups.part.saved.core/index.js"
+			],
+			[
+				"bean.http",
+				"lib/front/node_modules/bean.http/plugin/beans/http.gateway/index.js"
+			],
+			[
+				"maltconcr",
+				"lib/front/node_modules/malt/lib/core/models/concrete.js"
+			],
+			[
+				"maltabst",
+				"lib/front/node_modules/malt/lib/core/models/abstract.js"
+			],
+			[
+				"maltremot",
+				"lib/front/node_modules/malt/lib/core/models/remote.js"
+			],
+			[
+				"bean.http.gat",
+				"lib/front/node_modules/bean.http/plugin/beans/http.gateway/index.js"
+			],
+			[
+				"bean.httpgateway",
+				"lib/front/node_modules/bean.http/plugin/beans/http.gateway/index.js"
+			],
+			[
+				"spice.iosaveditem",
+				"node_modules/spice.io/beans/groups.part.saved.subscription.email/index.js"
+			],
+			[
 				"connect.core/",
 				"node_modules/leche.spice.io/shared/beans/connect.core/index.js"
 			],
@@ -274,14 +423,6 @@
 			[
 				"maltcolle",
 				"lib/front/node_modules/malt/lib/core/models/collection.js"
-			],
-			[
-				"maltconcr",
-				"lib/front/node_modules/malt/lib/core/models/concrete.js"
-			],
-			[
-				"maltabst",
-				"lib/front/node_modules/malt/lib/core/models/abstract.js"
 			],
 			[
 				"maltremote",

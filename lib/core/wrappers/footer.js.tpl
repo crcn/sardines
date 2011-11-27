@@ -1,4 +1,4 @@
-var entries = $entries,
+var entries = $$$entries,
 	module = {};
 
 for(var i = entries.length; i--;)
