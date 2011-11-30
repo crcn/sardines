@@ -19,7 +19,7 @@
 			"file": "lib/core/combine.js",
 			"settings":
 			{
-				"buffer_size": 6969,
+				"buffer_size": 7027,
 				"line_ending": "Unix"
 			}
 		},
@@ -52,6 +52,14 @@
 			"settings":
 			{
 				"buffer_size": 193,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin EoWoAv.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		}
@@ -131,6 +139,7 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"package",
 			"findPackageMainScript",
 			"inputs",
 			"onDataChange",
@@ -177,6 +186,7 @@
 	"groups":
 	[
 		{
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -210,15 +220,15 @@
 					"file": "lib/core/combine.js",
 					"settings":
 					{
-						"buffer_size": 6969,
+						"buffer_size": 7027,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
+								5623,
+								5623
 							]
 						],
 						"settings":
@@ -227,7 +237,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 6072.0,
+						"translation.y": 4605.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -272,8 +282,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1330,
+								1337
 							]
 						],
 						"settings":
@@ -282,7 +292,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 136.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -332,6 +342,32 @@
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "/tmp/subl stdin EoWoAv.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
