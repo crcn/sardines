@@ -24,6 +24,14 @@
 			}
 		},
 		{
+			"file": "/tmp/subl stdin sFYOp7.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "package.json",
 			"settings":
 			{
@@ -186,7 +194,7 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 2,
 			"sheets":
 			[
 				{
@@ -244,6 +252,32 @@
 				},
 				{
 					"buffer": 2,
+					"file": "/tmp/subl stdin sFYOp7.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
 					"file": "package.json",
 					"settings":
 					{
@@ -271,7 +305,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 3,
+					"buffer": 4,
 					"file": "lib/core/index.js",
 					"settings":
 					{
@@ -298,7 +332,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 4,
+					"buffer": 5,
 					"file": "/tmp/subl stdin tiG59v.txt",
 					"settings":
 					{
@@ -324,7 +358,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 5,
+					"buffer": 6,
 					"file": "lib/core/wrappers/footer.js.tpl",
 					"settings":
 					{
@@ -350,7 +384,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
+					"buffer": 7,
 					"file": "/tmp/subl stdin EoWoAv.txt",
 					"settings":
 					{
