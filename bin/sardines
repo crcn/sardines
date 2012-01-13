@@ -2,7 +2,7 @@
 
 var args = process.argv.concat(),
 	sardines = require('../lib');
-	ops = { args: args.concat(), input: [] };
+	ops = { args: args.concat(), input: [], include: [] };
 	
 
 require('sk/node/log');
@@ -17,6 +17,9 @@ while(args.length)
 	var arg = args.shift();
 	switch(arg)
 	{
+		case '--include':
+			// ops.include.unshift(args.shift());
+		break;
 		case '-i':
 		case '--input':
 			ops.input.unshift(absPath(args.shift()));
