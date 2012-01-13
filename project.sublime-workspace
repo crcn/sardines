@@ -19,7 +19,7 @@
 			"file": "lib/core/combine.js",
 			"settings":
 			{
-				"buffer_size": 7027,
+				"buffer_size": 8207,
 				"line_ending": "Unix"
 			}
 		},
@@ -51,7 +51,7 @@
 			"file": "lib/core/index.js",
 			"settings":
 			{
-				"buffer_size": 1481,
+				"buffer_size": 1519,
 				"line_ending": "Unix"
 			}
 		},
@@ -100,6 +100,46 @@
 			"settings":
 			{
 				"buffer_size": 122,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin lkSBhk.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "bin/sardines",
+			"settings":
+			{
+				"buffer_size": 739,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/core/wrappers/body.js.tpl",
+			"settings":
+			{
+				"buffer_size": 102,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/builtins/fs.js",
+			"settings":
+			{
+				"buffer_size": 408,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/core/wrappers/require.js",
+			"settings":
+			{
+				"buffer_size": 3096,
 				"line_ending": "Unix"
 			}
 		}
@@ -179,6 +219,17 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"basename",
+			"files",
+			"$name",
+			"relative",
+			"match",
+			"forEach",
+			"alias",
+			"include",
+			"ops.",
+			"module.exports =",
+			"include",
 			"package",
 			"findPackageMainScript",
 			"inputs",
@@ -226,7 +277,7 @@
 	"groups":
 	[
 		{
-			"selected": 11,
+			"selected": 15,
 			"sheets":
 			[
 				{
@@ -260,15 +311,15 @@
 					"file": "lib/core/combine.js",
 					"settings":
 					{
-						"buffer_size": 7027,
+						"buffer_size": 8207,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5623,
-								5623
+								2099,
+								2100
 							]
 						],
 						"settings":
@@ -277,7 +328,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 563.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -367,15 +418,15 @@
 					"file": "lib/core/index.js",
 					"settings":
 					{
-						"buffer_size": 1481,
+						"buffer_size": 1519,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1171,
-								1171
+								249,
+								249
 							]
 						],
 						"settings":
@@ -384,7 +435,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 47.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -542,6 +593,138 @@
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 12,
+					"file": "/tmp/subl stdin lkSBhk.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 13,
+					"file": "bin/sardines",
+					"settings":
+					{
+						"buffer_size": 739,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								360,
+								360
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 14,
+					"file": "lib/core/wrappers/body.js.tpl",
+					"settings":
+					{
+						"buffer_size": 102,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								96,
+								96
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 15,
+					"file": "lib/builtins/fs.js",
+					"settings":
+					{
+						"buffer_size": 408,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								151,
+								151
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 16,
+					"file": "lib/core/wrappers/require.js",
+					"settings":
+					{
+						"buffer_size": 3096,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3010,
+								3010
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 1592.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
