@@ -19,7 +19,7 @@
 			"file": "lib/core/combine.js",
 			"settings":
 			{
-				"buffer_size": 8207,
+				"buffer_size": 8572,
 				"line_ending": "Unix"
 			}
 		},
@@ -43,7 +43,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 594,
+				"buffer_size": 623,
 				"line_ending": "Unix"
 			}
 		},
@@ -136,6 +136,14 @@
 			}
 		},
 		{
+			"file": "/tmp/subl stdin QFJ0V3.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
 			"file": "lib/core/wrappers/require.js",
 			"settings":
 			{
@@ -219,6 +227,9 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"cof)",
+			".cof",
+			".js",
 			"basename",
 			"files",
 			"$name",
@@ -277,7 +288,7 @@
 	"groups":
 	[
 		{
-			"selected": 15,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -311,15 +322,15 @@
 					"file": "lib/core/combine.js",
 					"settings":
 					{
-						"buffer_size": 8207,
+						"buffer_size": 8572,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2099,
-								2100
+								4544,
+								4544
 							]
 						],
 						"settings":
@@ -328,7 +339,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 3277.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -390,15 +401,15 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 594,
+						"buffer_size": 623,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								594,
-								594
+								111,
+								111
 							]
 						],
 						"settings":
@@ -425,8 +436,8 @@
 						"selection":
 						[
 							[
-								249,
-								249
+								665,
+								667
 							]
 						],
 						"settings":
@@ -435,7 +446,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 47.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -694,7 +705,8 @@
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -704,6 +716,32 @@
 				},
 				{
 					"buffer": 16,
+					"file": "/tmp/subl stdin QFJ0V3.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 17,
 					"file": "lib/core/wrappers/require.js",
 					"settings":
 					{
