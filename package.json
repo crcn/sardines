@@ -1,7 +1,7 @@
 {
     "name": "sardines",
     "descriptions": "Stress-free javascript source combining.",
-    "version": "0.2.4",
+    "version": "0.2.5",
     "author": "Craig Condon <craig@crcn.com>",
     "bin": {
         "sardines": "./bin/sardines"
@@ -21,6 +21,6 @@
         "underscore": "*",
         "uglify-js": "*",
         "detective": "*",
-        "coffee-script":"*"
+        "coffee-script": "*"
     }
 }
