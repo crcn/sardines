@@ -51,7 +51,7 @@
 			"file": "package.json",
 			"settings":
 			{
-				"buffer_size": 623,
+				"buffer_size": 624,
 				"line_ending": "Unix"
 			}
 		},
@@ -60,6 +60,14 @@
 			"settings":
 			{
 				"buffer_size": 1520,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin vPoVWK.txt",
+			"settings":
+			{
+				"buffer_size": 0,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +115,7 @@
 			"file": "lib/core/wrappers/pre.js",
 			"settings":
 			{
-				"buffer_size": 122,
+				"buffer_size": 441,
 				"line_ending": "Unix"
 			}
 		},
@@ -139,7 +147,7 @@
 			"file": "lib/builtins/fs.js",
 			"settings":
 			{
-				"buffer_size": 408,
+				"buffer_size": 426,
 				"line_ending": "Unix"
 			}
 		},
@@ -155,7 +163,7 @@
 			"file": "lib/core/wrappers/require.js",
 			"settings":
 			{
-				"buffer_size": 3096,
+				"buffer_size": 3437,
 				"line_ending": "Unix"
 			}
 		},
@@ -164,6 +172,70 @@
 			"settings":
 			{
 				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sardines/lib/core/wrappers/require.js",
+			"settings":
+			{
+				"buffer_size": 3437,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "sardines/lib/core/wrappers/pre.js",
+			"settings":
+			{
+				"buffer_size": 441,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/tmp/subl stdin rlELcC.txt",
+			"settings":
+			{
+				"buffer_size": 0,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/builtins/stream.js",
+			"settings":
+			{
+				"buffer_size": 3337,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/builtins/util.js",
+			"settings":
+			{
+				"buffer_size": 8455,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/builtins/os.js",
+			"settings":
+			{
+				"buffer_size": 1133,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/builtins/path.js",
+			"settings":
+			{
+				"buffer_size": 11952,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "lib/builtins/winston.js",
+			"settings":
+			{
+				"buffer_size": 425,
 				"line_ending": "Unix"
 			}
 		}
@@ -243,6 +315,14 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"isWindows",
+			"formatArray",
+			"reduceToSingleString",
+			"readline",
+			"util",
+			"formatValue",
+			"reduceToSingleString",
+			"child",
 			"cof)",
 			".cof",
 			".js",
@@ -304,7 +384,7 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 28,
 			"sheets":
 			[
 				{
@@ -443,15 +523,15 @@
 					"file": "package.json",
 					"settings":
 					{
-						"buffer_size": 623,
+						"buffer_size": 624,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								111,
-								111
+								0,
+								0
 							]
 						],
 						"settings":
@@ -495,7 +575,7 @@
 				},
 				{
 					"buffer": 7,
-					"file": "/tmp/subl stdin Gfz5Df.txt",
+					"file": "/tmp/subl stdin vPoVWK.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -521,7 +601,7 @@
 				},
 				{
 					"buffer": 8,
-					"file": "/tmp/subl stdin tiG59v.txt",
+					"file": "/tmp/subl stdin Gfz5Df.txt",
 					"settings":
 					{
 						"buffer_size": 0,
@@ -547,6 +627,32 @@
 				},
 				{
 					"buffer": 9,
+					"file": "/tmp/subl stdin tiG59v.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 10,
 					"file": "lib/core/wrappers/footer.js.tpl",
 					"settings":
 					{
@@ -572,7 +678,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 10,
+					"buffer": 11,
 					"file": "/tmp/subl stdin EoWoAv.txt",
 					"settings":
 					{
@@ -598,7 +704,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 11,
+					"buffer": 12,
 					"file": "lib/core/index (minimacblack's conflicted copy 2011-11-26).js",
 					"settings":
 					{
@@ -625,24 +731,25 @@
 					"type": "text"
 				},
 				{
-					"buffer": 12,
+					"buffer": 13,
 					"file": "lib/core/wrappers/pre.js",
 					"settings":
 					{
-						"buffer_size": 122,
+						"buffer_size": 441,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								46,
-								46
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
@@ -651,7 +758,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 13,
+					"buffer": 14,
 					"file": "/tmp/subl stdin lkSBhk.txt",
 					"settings":
 					{
@@ -677,7 +784,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 14,
+					"buffer": 15,
 					"file": "bin/sardines",
 					"settings":
 					{
@@ -704,7 +811,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 15,
+					"buffer": 16,
 					"file": "lib/core/wrappers/body.js.tpl",
 					"settings":
 					{
@@ -730,19 +837,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 16,
+					"buffer": 17,
 					"file": "lib/builtins/fs.js",
 					"settings":
 					{
-						"buffer_size": 408,
+						"buffer_size": 426,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								151,
-								151
+								208,
+								208
 							]
 						],
 						"settings":
@@ -757,7 +864,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 17,
+					"buffer": 18,
 					"file": "/tmp/subl stdin QFJ0V3.txt",
 					"settings":
 					{
@@ -783,19 +890,19 @@
 					"type": "text"
 				},
 				{
-					"buffer": 18,
+					"buffer": 19,
 					"file": "lib/core/wrappers/require.js",
 					"settings":
 					{
-						"buffer_size": 3096,
+						"buffer_size": 3437,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3010,
-								3010
+								0,
+								0
 							]
 						],
 						"settings":
@@ -810,7 +917,7 @@
 					"type": "text"
 				},
 				{
-					"buffer": 19,
+					"buffer": 20,
 					"file": "/tmp/subl stdin MppNJ8.txt",
 					"settings":
 					{
@@ -828,6 +935,223 @@
 						"settings":
 						{
 							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 21,
+					"file": "sardines/lib/core/wrappers/require.js",
+					"settings":
+					{
+						"buffer_size": 3437,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								187,
+								187
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 22,
+					"file": "sardines/lib/core/wrappers/pre.js",
+					"settings":
+					{
+						"buffer_size": 441,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								439,
+								439
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 23,
+					"file": "/tmp/subl stdin rlELcC.txt",
+					"settings":
+					{
+						"buffer_size": 0,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Text/Plain text.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 24,
+					"file": "lib/builtins/stream.js",
+					"settings":
+					{
+						"buffer_size": 3337,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1186,
+								1190
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 25,
+					"file": "lib/builtins/util.js",
+					"settings":
+					{
+						"buffer_size": 8455,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4183,
+								4191
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1936.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 26,
+					"file": "lib/builtins/os.js",
+					"settings":
+					{
+						"buffer_size": 1133,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1133,
+								1133
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 27,
+					"file": "lib/builtins/path.js",
+					"settings":
+					{
+						"buffer_size": 11952,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								940,
+								940
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 28,
+					"file": "lib/builtins/winston.js",
+					"settings":
+					{
+						"buffer_size": 425,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								21,
+								21
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
