@@ -1,45 +1,29 @@
 #!/usr/bin/env node
+var cli = require("optimist").
+usage('Usage: $0 -e [entry] -o [output] -p [port] -c -d').
+default("d", process.cwd()).
+alias("d", "directory").
+default("p", 8080).
+alias("h", "help").
+alias("p", "port").
+alias("s", "server");
 
-var args = process.argv.concat(),
-	sardines = require('../lib');
-	ops = { args: args.concat(), input: [], include: [] };
-	
+var argv = cli.argv;
 
-require('sk/node/log');
-
-function absPath(path)
-{
-	return path.substr(0,1) == '/' ? path : process.cwd() + '/' + path;
-};
-
-while(args.length)
-{
-	var arg = args.shift();
-	switch(arg)
-	{
-		case '--include':
-			// ops.include.unshift(args.shift());
-		break;
-		case '-i':
-		case '--input':
-			ops.input.unshift(absPath(args.shift()));
-		break;
-		case '-o':
-		case '--output':
-			ops.output = absPath(args.shift());
-		break;
-		case '-n':
-		case '--name':
-			ops.name = args.shift();
-		break;
-		case '-p':
-		case '--pretty':
-			ops.pretty = true;
-		break;
-	}
+if(argv.help) {
+	cli.showHelp();
+	process.exit();
 }
 
 
-sardines.package(ops, function()
-{
-})
+if(argv.server) {
+	var express = require("express");
+	var server = express.createServer();
+	server.use(require("../").middleware({
+		directory: argv.d
+	}));
+	// server.use(express.static(argv.d));
+	server.listen(argv.p);
+} else {
+
+}
