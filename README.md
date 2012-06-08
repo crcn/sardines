@@ -14,7 +14,7 @@ Combine all node.js scripts into one file. Run it as a single executable, or onl
 var sardines = require("sardines"),
 fs = require("fs");
 
-sardines.shrinkWrap({
+sardines.shrinkwrap({
 	entry: __filename
 }, function(err, content) {
 	fs.writeFile(__dirname + "/shrinkwrapped.js", content);
