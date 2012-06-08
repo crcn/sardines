@@ -42,6 +42,7 @@ Like so:
 
 ## Terminal Usage
 
+```bash
 
 Usage: sardines [include] -e [entry] -o [output] -p [port] -d -s
 
@@ -50,7 +51,7 @@ Options:
   -d, --directory  public directory for http server  [default: cwd]
   -p, --port                                         [default: 8080]
   -m  --method                                       [default: "shrinkwrap"]
-
+```
 
 
 ## Terminal Examples
