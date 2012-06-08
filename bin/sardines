@@ -1,12 +1,19 @@
 #!/usr/bin/env node
 var cli = require("optimist").
-usage('Usage: $0 -e [entry] -o [output] -p [port] -c -d').
+usage('Usage: $0 [include] -e [entry] -o [output] -p [port] -d -s').
 default("d", process.cwd()).
-alias("d", "directory").
 default("p", 8080).
+default("m", "shrinkwrap").
+alias("m", "method").
+alias("d", "directory").
 alias("h", "help").
 alias("p", "port").
-alias("s", "server");
+alias("s", "server").
+describe("s", "run the http server").
+describe("d", "public directory for http server");
+
+
+var fs = require("fs");
 
 var argv = cli.argv;
 
@@ -15,6 +22,10 @@ if(argv.help) {
 	process.exit();
 }
 
+
+function fullPath(path) {
+	return path.substr(0, 1) != "/" ? argv.d + "/" + path : path;
+}
 
 if(argv.server) {
 	var express = require("express");
@@ -25,5 +36,10 @@ if(argv.server) {
 	// server.use(express.static(argv.d));
 	server.listen(argv.p);
 } else {
-
+	require("../")[argv.m]({
+		entry: fullPath(argv.e),
+		directory: argv.d
+	}, function(err, content) {
+		fs.writeFile(fullPath(argv.o), content);
+	})
 }
