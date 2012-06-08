@@ -34,10 +34,10 @@ In your browser, load a script and append one of the following query arguments: 
 
 Like so:
 
-```
-	http://localhost:8080/js/app.js?browserify # asynchronously loads ALL scripts vs loading into one
-	http://localhost:8080/js/app.js?shrinkwrap # loads all scripts into one
-	http://localhost:8080/js/app.js?wrap # wraps the script in a function so it doesn't pollute the global namespace
+```bash
+http://localhost:8080/js/app.js?browserify # asynchronously loads ALL scripts vs loading into one
+http://localhost:8080/js/app.js?shrinkwrap # loads all scripts into one
+http://localhost:8080/js/app.js?wrap # wraps the script in a function so it doesn't pollute the global namespace
 ```
 
 ## Terminal Usage
@@ -56,6 +56,7 @@ Options:
 
 ## Terminal Examples
 
-	sardines -e app.js -o app.shrinkwrap.js -m shrinkwrap # shrinkwrap the app
-	sardines -s # start the server
-   
+```bash
+sardines -e app.js -o app.shrinkwrap.js -m shrinkwrap # shrinkwrap the app
+sardines -s # start the server
+```
