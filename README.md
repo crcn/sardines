@@ -2,36 +2,61 @@
 
 Combine all node.js scripts into one file. Run it as a single executable, or online.
 
+## Features
 
-## Requirements
+- Combine all scripts into one (shrinkwrap method)
+- Asynchronously load all scripts (browserify method)
+- express middleware
 
+### JS Example
 
-- Node.js 
-- Linux / Mac
-- NPM
-- [beet](https://github.com/spiceapps/beet) - upstart script which daemonizes yor stuff
-- growlnotify for growl notifications
+```javascript
+var sardines = require("sardines"),
+fs = require("fs");
 
+sardines.shrinkwrap({
+	entry: __filename
+}, function(err, content) {
+	fs.writeFile(__dirname + "/shrinkwrapped.js", content);
+});
+```
 
-## Sweet Stuff
+### Express example
+```javascript
+var server = require("express").createServer();
+server.use(require("sardines").middleware({
+	directory: __dirname + "/public"
+}));
+server.listen(8080);
+```
 
-- Supports NPM packages.
-- Parses require(...), so your code stays compatible on the backend, as well as the front end.
-- Don't care for combining JS files, but want to know the dependencies? Use the API.
+In your browser, load a script and append one of the following query arguments: `shrinkwrap`, `browserify`, or `wrap`.
 
+Like so:
+
+```bash
+http://localhost:8080/js/app.js?browserify # asynchronously loads ALL scripts vs loading into one
+http://localhost:8080/js/app.js?shrinkwrap # loads all scripts into one
+http://localhost:8080/js/app.js?wrap # wraps the script in a function so it doesn't pollute the global namespace
+```
 
 ## Terminal Usage
 
+```bash
 
-Usage: sardines <cmd>
+Usage: sardines [include] -e [entry] -o [output] -p [port] -d -s
 
-	Arguments:
-
-		-i <input dir>		The input directory of the project
-		-o <output dir>	    The output directory of the project
+Options:
+  -s, --server     run the http server             
+  -d, --directory  public directory for http server  [default: cwd]
+  -p, --port                                         [default: 8080]
+  -m  --method                                       [default: "shrinkwrap"]
+```
 
 
 ## Terminal Examples
 
-	sardines -i input.js -o output.js
-   
+```bash
+sardines -e app.js -o app.shrinkwrap.js -m shrinkwrap # shrinkwrap the app
+sardines -s # start the server
+```
