@@ -1,7 +1,7 @@
 {
     "name": "sardines",
     "descriptions": "Stress-free javascript source combining.",
-    "version": "0.3.1",
+    "version": "0.3.2",
     "author": "Craig Condon <craig@crcn.com>",
     "bin": {
         "sardines": "./bin/sardines"
