@@ -1,26 +1,24 @@
 {
-    "name": "sardines",
-    "descriptions": "Stress-free javascript source combining.",
-    "version": "0.3.2",
-    "author": "Craig Condon <craig@crcn.com>",
-    "bin": {
-        "sardines": "./bin/sardines"
-    },
-    "repository": {
-        "type": "git",
-        "url": "http://github.com/crcn/sardines.git"
-    },
-    "main": "./lib/index.js",
-    "dependencies": {
-        "structr": "*",
-        "sk": "*",
-        "beanpole": "*",
-        "vine": "*",
-        "resolve": "*",
-        "wrench": "*",
-        "underscore": "*",
-        "uglify-js": "*",
-        "detective": "*",
-        "coffee-script": "*"
-    }
+  "name": "sardines",
+  "descriptions": "Stress-free javascript source combining.",
+  "version": "0.4.0",
+  "author": "Craig Condon <craig@crcn.com>",
+  "bin": {
+    "sardines": "./bin/sardines"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://github.com/crcn/sardines.git"
+  },
+  "main": "./lib/index.js",
+  "dependencies": {
+    "ejs": "0.8.x",
+    "optimist": "0.3.x",
+    "outcome": "0.0.x",
+    "step": "0.0.x",
+    "amdify": "0.0.x",
+    "structr": "0.2.x",
+    "underscore": "1.4.x",
+    "uglify-js": "1.3.x"
+  }
 }

@@ -1,21 +1,18 @@
 #!/usr/bin/env node
 var cli = require("optimist").
-usage('Usage: $0 [include] -e [entry] -o [output] -p [port] -d -s').
+usage('Usage: $0 [entries] -o [output] -p [platform]').
 default("d", process.cwd()).
-default("p", 8080).
-default("m", "shrinkwrap").
+default("p", "node").
+alias("p", "platform").
 alias("m", "method").
 alias("d", "directory").
+alias("o", "output").
 alias("h", "help").
-alias("p", "port").
-alias("s", "server").
-describe("s", "run the http server").
-describe("d", "public directory for http server");
+alias("e", "entry");
 
-
-var fs = require("fs");
-
-var argv = cli.argv;
+var argv = cli.argv,
+sardines = require("../"),
+fs = require("fs");
 
 if(argv.help) {
 	cli.showHelp();
@@ -27,19 +24,12 @@ function fullPath(path) {
 	return path.substr(0, 1) != "/" ? argv.d + "/" + path : path;
 }
 
-if(argv.server) {
-	var express = require("express");
-	var server = express.createServer();
-	server.use(require("../").middleware({
-		directory: argv.d
-	}));
-	// server.use(express.static(argv.d));
-	server.listen(argv.p);
-} else {
-	require("../")[argv.m]({
-		entry: fullPath(argv.e),
-		directory: argv.d
-	}, function(err, content) {
-		fs.writeFile(fullPath(argv.o), content);
-	})
-}
+
+sardines({
+	entries: argv._.map(fullPath).map(require.resolve),
+	platform: argv.platform,
+	output: argv.output ? fullPath(argv.output) : null
+}, function(err, content) {
+  if(err) console.error(err);
+  if(!argv.output && content) console.log(content)
+});
