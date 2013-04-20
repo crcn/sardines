@@ -1,0 +1,53 @@
+define(["require"], function(require) {
+
+    var __dirname = "resolve/lib",
+    __filename    = "resolve/lib/core.json",
+    module        = { exports: {} },
+    exports       = module.exports,
+    define        = undefined,
+    window        = exports;
+
+    
+
+    [
+    "assert",
+    "buffer_ieee754",
+    "buffer",
+    "child_process",
+    "cluster",
+    "console",
+    "constants",
+    "crypto",
+    "_debugger",
+    "dgram",
+    "dns",
+    "domain",
+    "events",
+    "freelist",
+    "fs",
+    "http",
+    "https",
+    "_linklist",
+    "module",
+    "net",
+    "os",
+    "path",
+    "punycode",
+    "querystring",
+    "readline",
+    "repl",
+    "stream",
+    "string_decoder",
+    "sys",
+    "timers",
+    "tls",
+    "tty",
+    "url",
+    "util",
+    "vm",
+    "zlib"
+]
+
+
+    return module.exports;
+});
