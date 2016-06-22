@@ -1,3 +1,5 @@
+#### Sardines is no longer maintained. Use Webpack, or browserify instead.
+
 ## What is it?
 
 Combine all node.js scripts into one file. Run it as a single executable, or online.
